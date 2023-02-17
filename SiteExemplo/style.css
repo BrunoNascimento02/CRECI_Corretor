@@ -76,9 +76,10 @@ main section article img {
 
 main div#container{
     height: 550px;
+    width: 1454px;
     display: block;
     position: relative;
-    background-color: rgba(227, 225, 225, 0.676);
+    background-color: rgba(209, 209, 209, 0.676);
     margin: auto;
 }
 
@@ -90,6 +91,7 @@ main div#produto{
     margin-left: 10%;
     margin-right: 10%;
     top: 10%;
+
 }
 
 main div#quadrado{
@@ -118,7 +120,7 @@ main div#quadrado a{
 }
 
 .imagem{
-    max-width: 1570px;
+    max-width: 100%;
     display: block;
     margin: auto;
 }
@@ -209,6 +211,29 @@ nav a:hover{
     margin-right: 10px;
   }
 
+
+div.final{
+    background-color: rgb(255, 255, 255);
+    width: auto;
+    height: 400px;
+    display: flex;
+    columns: 2;
+    padding-left: 300px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+div.boxfinal{
+    max-width: 300px;
+    height: 400px;
+    padding: 20px;
+}
+
+div.boxfinal2{
+    width: 300px;
+    height: 400px;
+    padding-left: 200px;
+    padding-top: 100px;
+}
 
 footer{
     font-family: Arial, Helvetica, sans-serif;
