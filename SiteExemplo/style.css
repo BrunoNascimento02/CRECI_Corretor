@@ -1,0 +1,26 @@
+
+@font-face {
+
+    src: url(font/BebasNeue-Regular.otf) format(otf);
+    font-family: 'bebasneue';
+}
+
+:root{
+    --cor-01: rgb(19, 19, 161);
+    --cor-02: gray ;
+
+}
+
+
+header{
+    background-color: var(--cor-01);
+    padding: 10px 5px 10px 27px;
+}
+
+header a{
+    font-family: 'bebasneue',Arial, Helvetica, sans-serif;
+    padding: 10px;
+    background-color: red;
+    color: --cor-01;
+    text-decoration: none;
+}
